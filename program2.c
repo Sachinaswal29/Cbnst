@@ -1,3 +1,5 @@
+//write a program in'C' language to find out the roots of the algebric and transcedental equation using bisection method.
+
 #include <stdio.h>
 #include <math.h>
 
