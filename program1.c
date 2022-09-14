@@ -1,4 +1,4 @@
-// Write a program in 'C' language to deduce error envolved in a polynomial equation.
+
 
 #include <stdio.h>
 #include <math.h>
