@@ -1,4 +1,4 @@
-//WAP in C language to find out the roots of a algebraic and transcendental equation using regula falsi method.
+//Write a program in 'C' language to find out the roots of a algebraic and transcendental equation using regula falsi method.
 
 #include <stdio.h>
 #include <stdlib.h>
