@@ -1,3 +1,5 @@
+//Write a program in'C' language to find out thr roots of algebraic and transcendental equation using Iterative method.
+
 #include <stdio.h>
 #include <math.h>
 float f(float x)
