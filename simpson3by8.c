@@ -1,0 +1,26 @@
+#include <stdio.h>
+float findValueAt(float x)
+{
+    return 1 / (1 + x * x);
+}
+int main()
+{
+    float a, b, h, sum;
+    int n, itr = 1;
+    printf("Enter the value of a and b:");
+    scanf("%f%f", &a, &b);
+    printf("Enter the value of n:");
+    scanf("%d", &n);
+    h = (b - a) / n;
+    sum = findValueAt(a) + findValueAt(b);
+    for (float i = a + h; i < b; i += h)
+    {
+        if (itr % 3 == 0)
+            sum += 2 * findValueAt(i);
+        else
+            sum += 3 * findValueAt(i);
+        itr++;
+    }
+    sum = (3 * h) / 8 * sum;
+    printf("Value of the Integral= %f", sum);
+}
